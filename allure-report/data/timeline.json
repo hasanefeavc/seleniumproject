@@ -1,0 +1,72 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "hasanefeavc",
+      "children": [
+        {
+          "name": "20260@hasanefeavc.main(1)",
+          "children": [
+            {
+              "name": "googlesearch",
+              "uid": "c085da02a8f5a345",
+              "parentUid": "bfb21a2456d625ee6061501b9cd28ae9",
+              "status": "passed",
+              "time": {
+                "start": 1679293406934,
+                "stop": 1679293410393,
+                "duration": 3459
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": []
+            },
+            {
+              "name": "amazonsearch",
+              "uid": "e2c0ad7280ef5b04",
+              "parentUid": "bfb21a2456d625ee6061501b9cd28ae9",
+              "status": "passed",
+              "time": {
+                "start": 1679293394458,
+                "stop": 1679293406848,
+                "duration": 12390
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": []
+            },
+            {
+              "name": "mvnrepositorysearch",
+              "uid": "a909b3b0d8f76ff",
+              "parentUid": "bfb21a2456d625ee6061501b9cd28ae9",
+              "status": "broken",
+              "time": {
+                "start": 1679293410397,
+                "stop": 1679293429656,
+                "duration": 19259
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": []
+            }
+          ],
+          "uid": "bfb21a2456d625ee6061501b9cd28ae9"
+        }
+      ],
+      "uid": "9428e1c29b9c59768927c2ef2b2ee0fa"
+    }
+  ]
+}

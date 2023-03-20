@@ -1,0 +1,61 @@
+{
+  "uuid": "ef3122c2-029d-4e7b-b1c0-be3bc6b6755e",
+  "historyId": "e91db41048174d199e9751537bfe7377",
+  "fullName": "seleniumallure.facebooksearchsearch",
+  "labels": [
+    {
+      "name": "package",
+      "value": "seleniumallure"
+    },
+    {
+      "name": "testClass",
+      "value": "seleniumallure"
+    },
+    {
+      "name": "testMethod",
+      "value": "facebooksearchsearch"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "firstprojectselenium"
+    },
+    {
+      "name": "subSuite",
+      "value": "seleniumallure"
+    },
+    {
+      "name": "host",
+      "value": "hasanefeavc"
+    },
+    {
+      "name": "thread",
+      "value": "32269@hasanefeavc.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "facebooksearchsearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679298734421,
+  "stop": 1679298736841
+}

@@ -1,0 +1,66 @@
+{
+  "e1f6277ac68dc7fd88af0bd644e23529": {
+    "statistic": {
+      "failed": 0,
+      "broken": 1,
+      "skipped": 0,
+      "passed": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "a909b3b0d8f76ff",
+        "status": "broken",
+        "statusDetails": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='/artifact/org.testng/testng']\"}\n  (Session info: chrome=110.0.5481.77)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.8.1', revision: '8ebccac989'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '17.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7975b4591e8c85058c15736aa452859e, findElement {using=xpath, value=//a[@href='/artifact/org.testng/testng']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.9ej8p9}, goog:chromeOptions: {debuggerAddress: localhost:42825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42825/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7975b4591e8c85058c15736aa452859e",
+        "time": {
+          "start": 1679293410397,
+          "stop": 1679293429656,
+          "duration": 19259
+        }
+      }
+    ]
+  },
+  "c50d174f48042168a2f117d5f39d2175": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "c085da02a8f5a345",
+        "status": "passed",
+        "time": {
+          "start": 1679293406934,
+          "stop": 1679293410393,
+          "duration": 3459
+        }
+      }
+    ]
+  },
+  "8d255a565ca9e6fd279ea935e06afbe5": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 1,
+      "unknown": 0,
+      "total": 1
+    },
+    "items": [
+      {
+        "uid": "e2c0ad7280ef5b04",
+        "status": "passed",
+        "time": {
+          "start": 1679293394458,
+          "stop": 1679293406848,
+          "duration": 12390
+        }
+      }
+    ]
+  }
+}

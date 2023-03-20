@@ -29,7 +29,6 @@ public class seleniumallure {
 
 
     @Test
-    @Description("Some detailed test description")
     public void googlesearch() throws Exception {
 
 
@@ -41,7 +40,7 @@ public class seleniumallure {
         driver.get("https://www.google.com");
 
         WebElement searchtext = driver.findElement(By.xpath("//input[@class='gLFyf']"));
-        searchtext.sendKeys("andasis");
+        searchtext.sendKeys("mvnrepository");
 
         searchtext.submit();
 
@@ -74,29 +73,26 @@ public class seleniumallure {
     }
 
     @Test
-    public void mvnrepositorysearch() {
+    public void facebooksearchsearch() {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-        driver.get("https://www.mvnrepository.com");
+        driver.get("https://tr-tr.facebook.com/");
 
 
-        WebElement searchtext = driver.findElement(By.xpath("//input[@id='query']"));
-        searchtext.sendKeys("TestNG");
+        WebElement emailtext = driver.findElement(By.xpath("//input[@id='email']"));
+        emailtext.sendKeys("hasanefeavc");
 
-        searchtext.submit();
+        WebElement passtext = driver.findElement(By.xpath("//input[@id='pass']"));
+        passtext.sendKeys("hasanefeavc");
 
+        WebElement button = driver.findElement(By.xpath("//button[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']"));
 
-        driver.findElement(By.xpath("//a[@href='/artifact/org.testng/testng']")).click();
+        button.submit();
 
-        driver.findElement(By.xpath("//a[@class='vbtn release']")).click();
-
-        driver.findElement(By.xpath("//textarea[@id='maven-a']")).click();
-
-        driver.quit();
 
     }
 

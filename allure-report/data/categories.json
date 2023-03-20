@@ -1,0 +1,36 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Test defects",
+      "children": [
+        {
+          "name": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='/artifact/org.testng/testng']\"}\n  (Session info: chrome=110.0.5481.77)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.8.1', revision: '8ebccac989'\nSystem info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-35-generic', java.version: '17.0.6'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7975b4591e8c85058c15736aa452859e, findElement {using=xpath, value=//a[@href='/artifact/org.testng/testng']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.9ej8p9}, goog:chromeOptions: {debuggerAddress: localhost:42825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42825/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7975b4591e8c85058c15736aa452859e",
+          "children": [
+            {
+              "name": "mvnrepositorysearch",
+              "uid": "a909b3b0d8f76ff",
+              "parentUid": "1dd1cc1665c56afd9fb59eadb0e32ae9",
+              "status": "broken",
+              "time": {
+                "start": 1679293410397,
+                "stop": 1679293429656,
+                "duration": 19259
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": []
+            }
+          ],
+          "uid": "1dd1cc1665c56afd9fb59eadb0e32ae9"
+        }
+      ],
+      "uid": "bdbf199525818fae7a8651db9eafe741"
+    }
+  ]
+}

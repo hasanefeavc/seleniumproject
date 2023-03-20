@@ -1,0 +1,35 @@
+[
+  {
+    "uid": "c085da02a8f5a345",
+    "name": "googlesearch",
+    "time": {
+      "start": 1679293406934,
+      "stop": 1679293410393,
+      "duration": 3459
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e2c0ad7280ef5b04",
+    "name": "amazonsearch",
+    "time": {
+      "start": 1679293394458,
+      "stop": 1679293406848,
+      "duration": 12390
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a909b3b0d8f76ff",
+    "name": "mvnrepositorysearch",
+    "time": {
+      "start": 1679293410397,
+      "stop": 1679293429656,
+      "duration": 19259
+    },
+    "status": "broken",
+    "severity": "normal"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "seleniumallure",
+      "children": [
+        {
+          "name": "amazonsearch",
+          "uid": "e2c0ad7280ef5b04",
+          "parentUid": "3881e3c5473a1ebe148d877161b4692f",
+          "status": "passed",
+          "time": {
+            "start": 1679293394458,
+            "stop": 1679293406848,
+            "duration": 12390
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": []
+        },
+        {
+          "name": "googlesearch",
+          "uid": "c085da02a8f5a345",
+          "parentUid": "3881e3c5473a1ebe148d877161b4692f",
+          "status": "passed",
+          "time": {
+            "start": 1679293406934,
+            "stop": 1679293410393,
+            "duration": 3459
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": []
+        },
+        {
+          "name": "mvnrepositorysearch",
+          "uid": "a909b3b0d8f76ff",
+          "parentUid": "3881e3c5473a1ebe148d877161b4692f",
+          "status": "broken",
+          "time": {
+            "start": 1679293410397,
+            "stop": 1679293429656,
+            "duration": 19259
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 0,
+          "retriesStatusChange": false,
+          "parameters": []
+        }
+      ],
+      "uid": "3881e3c5473a1ebe148d877161b4692f"
+    }
+  ]
+}
