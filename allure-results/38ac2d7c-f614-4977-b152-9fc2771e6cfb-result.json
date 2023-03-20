@@ -1,0 +1,62 @@
+{
+  "uuid": "38ac2d7c-f614-4977-b152-9fc2771e6cfb",
+  "historyId": "c50d174f48042168a2f117d5f39d2175",
+  "fullName": "seleniumallure.googlesearch",
+  "labels": [
+    {
+      "name": "package",
+      "value": "seleniumallure"
+    },
+    {
+      "name": "testClass",
+      "value": "seleniumallure"
+    },
+    {
+      "name": "testMethod",
+      "value": "googlesearch"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "firstprojectselenium"
+    },
+    {
+      "name": "subSuite",
+      "value": "seleniumallure"
+    },
+    {
+      "name": "host",
+      "value": "hasanefeavc"
+    },
+    {
+      "name": "thread",
+      "value": "28506@hasanefeavc.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "googlesearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Some detailed test description",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679062220496,
+  "stop": 1679062224792
+}

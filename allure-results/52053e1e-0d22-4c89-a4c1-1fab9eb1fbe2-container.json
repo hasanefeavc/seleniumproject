@@ -1,0 +1,11 @@
+{
+  "uuid": "52053e1e-0d22-4c89-a4c1-1fab9eb1fbe2",
+  "name": "seleniumallure",
+  "children": [
+    "b1a8a70e-94c3-4ed8-94df-893c656b1755"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1679052277341,
+  "stop": 1679052282660
+}
