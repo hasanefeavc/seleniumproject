@@ -1,27 +1,17 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
-
-import java.io.ByteArrayInputStream;
-import java.io.File;
 import java.net.URL;
 import java.time.Duration;
 
-
 public class seleniumallure {
+
 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(seleniumallure.class.getName());
@@ -31,11 +21,16 @@ public class seleniumallure {
     @Test
     public void googlesearch() throws Exception {
 
+        String chromeDriverLocation = null;
+        String currentProjectLocation = System.getProperty("user.dir");
+        chromeDriverLocation = currentProjectLocation.concat("/home/efe/Downloads/chromedriver_linux64/chromedriver");
+
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
 
         driver.get("https://www.google.com");
 
@@ -52,6 +47,12 @@ public class seleniumallure {
     @Test
     public void amazonsearch() {
 
+        String chromeDriverLocation = null;
+        String currentProjectLocation = System.getProperty("user.dir");
+        chromeDriverLocation = currentProjectLocation.concat("/home/efe/Downloads/chromedriver_linux64/chromedriver");
+
+
+        System.setProperty("webdriver.chrome.drive", chromeDriverLocation);
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -74,6 +75,10 @@ public class seleniumallure {
 
     @Test
     public void facebooksearchsearch() {
+
+        String chromeDriverLocation = null;
+        String currentProjectLocation = System.getProperty("user.dir");
+        chromeDriverLocation = currentProjectLocation.concat("/home/efe/Downloads/chromedriver_linux64/chromedriver");
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
