@@ -13,7 +13,6 @@ import java.time.Duration;
 public class seleniumallure {
 
 
-
     private static final Logger LOGGER = LoggerFactory.getLogger(seleniumallure.class.getName());
     private URL pathResources = seleniumallure.class.getResource("/files/");
 
@@ -21,9 +20,6 @@ public class seleniumallure {
     @Test
     public void googlesearch() throws Exception {
 
-        String chromeDriverLocation = null;
-        String currentProjectLocation = System.getProperty("user.dir");
-        chromeDriverLocation = currentProjectLocation.concat("/home/efe/Downloads/chromedriver_linux64/chromedriver");
 
 
         WebDriverManager.chromedriver().setup();
@@ -47,12 +43,7 @@ public class seleniumallure {
     @Test
     public void amazonsearch() {
 
-        String chromeDriverLocation = null;
-        String currentProjectLocation = System.getProperty("user.dir");
-        chromeDriverLocation = currentProjectLocation.concat("/home/efe/Downloads/chromedriver_linux64/chromedriver");
 
-
-        System.setProperty("webdriver.chrome.drive", chromeDriverLocation);
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -76,9 +67,6 @@ public class seleniumallure {
     @Test
     public void facebooksearchsearch() {
 
-        String chromeDriverLocation = null;
-        String currentProjectLocation = System.getProperty("user.dir");
-        chromeDriverLocation = currentProjectLocation.concat("/home/efe/Downloads/chromedriver_linux64/chromedriver");
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
